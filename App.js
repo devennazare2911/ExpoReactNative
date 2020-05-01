@@ -12,7 +12,7 @@ function HomeScreen() {
 return(
   console.log("Hellow World")
        );
-}
+} //DO IN TERMINAL NAAAA  stop 
 export default function App() {
  
   return (
@@ -34,13 +34,13 @@ export default function App() {
 />
 <Button
   
-  title="Login        "
-
+  title="Login "
+//pushing
 />
     <PricingCard
     color="#4f9deb"
     title="Sale"
-    price="$420"
+    price="$877"
     info={['1 User', 'Basic Support', 'All Core Features..']}
     button={{ title: 'GET STARTED',icon: 'flight-takeoff'  }}
     />
