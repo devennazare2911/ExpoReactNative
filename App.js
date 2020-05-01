@@ -8,34 +8,40 @@ import { PricingCard } from 'react-native-elements';
 import { Input } from 'react-native-elements';
 
 
-
+function HomeScreen() {
+return(
+  console.log("Hellow World")
+       );
+}
 export default function App() {
  
   return (
   
     <View style={styles.container}>
    
-      <Text>Welcome To Our Booking App </Text>
+      <Text  >Welcome To Our Booking App </Text>
 
       <Input
   placeholder='Enter Your Email '
   leftIcon={{ type: 'font-awesome', name: 'chevron-right' }}
+  style = {{ padding:'10',flex:4}} 
 />
 <Input
   placeholder='Enter Your Password'
   secureTextEntry={true} 
   leftIcon={{ type: 'font-awesome', name: 'chevron-right' }}
+  
 />
 <Button
   
   title="Login        "
-  
+
 />
     <PricingCard
     color="#4f9deb"
     title="Sale"
-    price="$69"
-    info={['1 User', 'Basic Support', 'All Core Features']}
+    price="$420"
+    info={['1 User', 'Basic Support', 'All Core Features..']}
     button={{ title: 'GET STARTED',icon: 'flight-takeoff'  }}
     />
 
@@ -49,7 +55,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 5,
+    flex: 0.9,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
