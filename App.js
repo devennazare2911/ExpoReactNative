@@ -1,24 +1,36 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text,Alert,View } from 'react-native';
 import { Button } from 'react-native-elements';
 import {Icon }from 'react-native-vector-icons/FontAwesome';
 import { CheckBox } from 'react-native-elements';
 import { PricingCard } from 'react-native-elements';
 
-import { Header } from 'react'
-
+import { Input } from 'react-native-elements';
 
 
 
 export default function App() {
+ 
   return (
   
     <View style={styles.container}>
    
       <Text>Welcome To Our Booking App </Text>
 
-
-     
+      <Input
+  placeholder='Enter Your Email '
+  leftIcon={{ type: 'font-awesome', name: 'chevron-right' }}
+/>
+<Input
+  placeholder='Enter Your Password'
+  secureTextEntry={true} 
+  leftIcon={{ type: 'font-awesome', name: 'chevron-right' }}
+/>
+<Button
+  
+  title="Login        "
+  
+/>
     <PricingCard
     color="#4f9deb"
     title="Sale"
@@ -27,20 +39,17 @@ export default function App() {
     button={{ title: 'GET STARTED',icon: 'flight-takeoff'  }}
     />
 
-<Button
-  
-  title="Book Tickets"
-  
-/>
+
 
     </View>
-  
+ 
   );
+  
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 5,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
