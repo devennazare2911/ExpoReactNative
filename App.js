@@ -35,7 +35,7 @@ export default function App() {
 <Button
   
   title="Login "
-//pushing
+  onPress={() => Alert.alert('Simple Button pressed')}//pushing
 />
     <PricingCard
     color="#4f9deb"
