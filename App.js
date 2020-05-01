@@ -35,12 +35,12 @@ export default function App() {
 <Button
   
   title="Login "
-//pushing
+//pushi
 />
     <PricingCard
     color="#4f9deb"
     title="Sale"
-    price="$877"
+    price="$8779636"
     info={['1 User', 'Basic Support', 'All Core Features..']}
     button={{ title: 'GET STARTED',icon: 'flight-takeoff'  }}
     />
