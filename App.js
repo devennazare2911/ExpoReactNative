@@ -19,7 +19,7 @@ export default function App() {
   
     <View style={styles.container}>
    
-      <Text  >Welcome To Our Booking App </Text>
+      <Text  >Welcome To Our Booking App... </Text>
 
       <Input
   placeholder='Enter Your Email '
