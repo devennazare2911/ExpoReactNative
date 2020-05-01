@@ -35,12 +35,12 @@ export default function App() {
 <Button
   
   title="Login "
-//pushi
+  onPress={() => Alert.alert('Invalid Credentials')}//pushing
 />
     <PricingCard
     color="#4f9deb"
     title="Sale"
-    price="$8779636"
+    price="$200"
     info={['1 User', 'Basic Support', 'All Core Features..']}
     button={{ title: 'GET STARTED',icon: 'flight-takeoff'  }}
     />
